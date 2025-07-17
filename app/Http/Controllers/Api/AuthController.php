@@ -27,6 +27,8 @@ class AuthController extends Controller
             return $this->error('Invalid credentials', 401);
         }
 
+        $user->tokens()->delete();
+
         $token = $user->createToken('api-token')->plainTextToken;
 
         $data = [
@@ -40,6 +42,10 @@ class AuthController extends Controller
     public function logout(Request $request)
     {
         $request->user()->currentAccessToken()->delete();
-        return $this->success(null, 'Logout successful');
+
+        return response()->json([
+            'status' => 'success',
+            'message' => 'Logout successful'
+        ]);
     }
 }

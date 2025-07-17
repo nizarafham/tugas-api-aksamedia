@@ -52,9 +52,12 @@ class EmployeeController extends Controller
             $validated['image'] = Storage::url($path);
         }
 
-        Employee::create($validated);
+        $employee = Employee::create($validated);
 
-        return $this->success(null, 'Employee created successfully.');
+        return response()->json([
+            'status' => 'success',
+            'message' => 'Employee updated successfully'
+        ]);
     }
 
     public function show(Employee $employee)
@@ -77,7 +80,10 @@ class EmployeeController extends Controller
 
         $employee->update($validated);
 
-        return $this->success(null, 'Employee updated successfully.');
+        return response()->json([
+            'status' => 'success',
+            'message' => 'Employee updated successfully'
+        ]);
     }
 
     public function destroy(Employee $employee)
@@ -88,7 +94,10 @@ class EmployeeController extends Controller
 
         $employee->delete();
 
-        return $this->success(null, 'Employee deleted successfully.');
+        return response()->json([
+            'status' => 'success',
+            'message' => 'Employee deleted successfully'
+        ]);
     }
 
 }

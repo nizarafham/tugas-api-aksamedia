@@ -13,6 +13,6 @@ Route::middleware('auth:sanctum')->group(function () {
     Route::get('/divisions', [DivisionController::class, 'index']);
 
     Route::get('/employees', [EmployeeController::class, 'index']);
-    
+
     Route::apiResource('employees', EmployeeController::class);
 });
