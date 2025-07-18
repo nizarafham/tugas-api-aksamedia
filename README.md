@@ -1,44 +1,37 @@
-# Dokumentasi Postman
+# Postman Documentation
 
-Ini adalah dokumentasi untuk koleksi Postman saya. Di sini Anda akan menemukan berbagai tangkapan layar (screenshot) yang menjelaskan penggunaan API dan alur kerja.
-
-## Daftar Screenshot
-
-### Screenshot 1: post login admin
-![Postman Request 1](public/images/postman/Screenshot%202025-07-18%20024803.png)
-*Deskripsi singkat mengenai tangkapan layar ini, misalnya: "Menunjukkan contoh permintaan GET ke endpoint `/users`."*
+### Screenshot 1: post admin login
+![Postman](public/images/postman/Screenshot%202025-07-18%20024803.png)
 
 ### Screenshot 2: get all divisions
-![Postman Response 1](public/images/postman/Screenshot%202025-07-18%20024819.png)
-*Deskripsi singkat mengenai tangkapan layar ini, misalnya: "Menampilkan respons JSON dari permintaan GET `/users` yang berhasil."*
+![Postman](public/images/postman/Screenshot%202025-07-18%20024819.png)
 
 ### Screenshot 3: post create employee
-![Postman Test 1](public/images/postman/Screenshot%202025-07-18%20024831.png)
-*Deskripsi singkat mengenai tangkapan layar ini, misalnya: "Contoh script test di Postman untuk memvalidasi status respons."*
+![Postman](public/images/postman/Screenshot%202025-07-18%20024831.png)
 
 ### Screenshot 4: get all employee
-![Postman Environment](public/images/postman/Screenshot%202025-07-18%20024849.png)
-*Deskripsi singkat mengenai tangkapan layar ini, misalnya: "Konfigurasi variabel lingkungan di Postman."*
+![Postman](public/images/postman/Screenshot%202025-07-18%20024849.png)
 
 ### Screenshot 5: get employee with param
-![Postman Collection](public/images/postman/Screenshot%202025-07-18%20024905.png)
-*Deskripsi singkat mengenai tangkapan layar ini, misalnya: "Struktur koleksi Postman yang digunakan."*
+![Postman](public/images/postman/Screenshot%202025-07-18%20024905.png)
 
 ### Screenshot 6: put edit employee
-![Postman Pre-request Script](public/images/postman/Screenshot%202025-07-18%20024917.png)
-*Deskripsi singkat mengenai tangkapan layar ini, misalnya: "Contoh pre-request script untuk otentikasi."*
+![Postman](public/images/postman/Screenshot%202025-07-18%20024917.png)
 
 ### Screenshot 7: delete employee
-![Postman Authorization](public/images/postman/Screenshot%202025-07-18%20024930.png)
-*Deskripsi singkat mengenai tangkapan layar ini, misalnya: "Pengaturan otorisasi OAuth 2.0 di Postman."*
+![Postman](public/images/postman/Screenshot%202025-07-18%20024930.png)
 
-### Screenshot 8: post logout admin
-![Postman Runner](public/images/postman/Screenshot%202025-07-18%20024945.png)
+### Screenshot 8: post admin logout
+![Postman](public/images/postman/Screenshot%202025-07-18%20024945.png)
+
+### Screenshot 9: get nilaiRt
+![Postman](public/images/postman/Screenshot%202025-07-18%20161257.png)
+
+### Screenshot 10: get nilaiSt
+![Postman](public/images/postman/Screenshot%202025-07-18%20161415.png)
 
 
 ---
-
-
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
